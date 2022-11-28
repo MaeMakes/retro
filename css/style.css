@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap');
 
-
-
 body {
     background-color: paleturquoise;
     background-image: url("https://www.kibrispdr.org/data/10/background-glamor-3.jpg");
@@ -9,17 +7,15 @@ body {
     color: paleturquoise;
 }
 
-.logo{ 
-    width: 80vw;
+.logo { 
+    width: 30vw;
     justify-self: center;
 }
 
-.logo img {text-align: center;
-    width: 50vw;
-
-        margin: 0 19vw;
-    
-    
+.logo img {
+    text-align: center;
+    width: 35vw;
+    margin: 0 30vw;
 }
 
 .text {
@@ -31,8 +27,6 @@ body {
     --main-radius:5px;
     --main-padding:5px;
 }
-
-
 
 .container {
   display:grid;
@@ -63,7 +57,7 @@ nav{
 #main{
     background: rgba(0, 0, 0, 0.5);
     grid-area: main;  
-    padding: 3em;
+    padding: 4em;
     color: white;
     font-family: 'Amaranth', sans-serif;
     font-weight: 400;
@@ -118,7 +112,7 @@ footer{
 }
 
 footer img{
-    width: 50vw;
+    width: 20vw;
 }
 
 @media only screen and (min-width:576px){
