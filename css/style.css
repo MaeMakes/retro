@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap');
+
+
+
+body {
+    background-color: paleturquoise;
+    background-image: url("https://www.kibrispdr.org/data/10/background-glamor-3.jpg");
+    margin: 0;
+    color: paleturquoise;
+}
+
+.logo{ 
+    width: 80vw;
+    justify-self: center;
+}
+
+.logo img {text-align: center;
+    width: 50vw;
+
+        margin: 0 19vw;
+    
+    
+}
+
+.text {
+    font-family: cursive, sans-serif;
+    text-align: center;
+}
+
+:root{
+    --main-radius:5px;
+    --main-padding:5px;
+}
+
+
+
+.container {
+  display:grid;
+  height:100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 1.2fr 1.2fr;
+  grid-template-areas: 
+       
+        "main main main main"
+        "content1 content1 content2 content2"
+        "content3 content3 content4 content4";
+  grid-gap: 0.2rem; 
+  font-family: , fantasy;
+  font-weight: 800;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: darkorange;
+    text-align: center;
+}   
+      
+nav{
+    background: #a7ffeb;
+    grid-area: nav;
+    border-radius:var(--main-radius);
+    padding-top: var(--main-padding);
+}  
+      
+#main{
+    background: rgba(0, 0, 0, 0.5);
+    grid-area: main;  
+    padding: 3em;
+    color: white;
+    font-family: 'Amaranth', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 1.4em;
+
+} 
+    
+#sidebar{
+    background: ;
+    grid-area: sidebar;
+    border-radius:var(--main-radius);
+    padding-top: var(--main-padding);
+}
+
+#content1{
+    background-image: url("https://www.wnypapers.com/content/images//110-Ent/Miley-Hannah-1.jpg") ;
+    background-position: center center;
+    grid-area: content1;  
+    border-radius:var(--main-radius);
+    padding-top: var(--main-padding);
+}
+
+#content2{
+    background-image: url("https://img.buzzfeed.com/buzzfeed-static/static/2021-03/24/19/asset/89a5c2ea5d33/sub-buzz-12053-1616615196-2.jpg");
+    grid-area: content2; 
+    border-radius:var(--main-radius);
+    padding-top: var(--main-padding);
+}
+
+#content3{
+    background-image: url("https://www.wnypapers.com/content/images//110-Ent/Miley-Hannah-1.jpg") ;
+    background-position: center center;
+    grid-area: content3;  
+    border-radius:var(--main-radius);
+    padding-top: var(--main-padding);
+}
+
+#content4{
+    background-image: url("https://img.buzzfeed.com/buzzfeed-static/static/2021-03/24/19/asset/89a5c2ea5d33/sub-buzz-12053-1616615196-2.jpg");
+    grid-area: content4; 
+    border-radius:var(--main-radius);
+    padding-top: var(--main-padding);
+}
+
+
+
+
+footer{
+    background: rgba(0, 0, 0, .5);
+
+}
+
+footer img{
+    width: 50vw;
+}
+
+@media only screen and (min-width:576px){
+    
+}
+    
+    
+.image img{ 
+    width: 50vw;
+}
+
+.bigimage img{
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+
+.ex{
+    font-size: 5em;
+    position: absolute;
+    z-index: 1000;
+    top: 2vh;
+}
+
+
+.image2
+position: absolute
+
+}
+
+/*/^^^^^^^^^^^^///media */
+    
+
+@media screen and (min-width: 768) {
+    
+}
+
+@media screen and (min-width: 992) {
+    
+}
+
+@media screen and (min-width: 1200) {
+    
+}
